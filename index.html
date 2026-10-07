@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Android Tools & Shortcuts</title>
+
+    <meta name="description"
+          content="Android tools, app shortcuts, utilities, APK downloads and device tools.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 30px 15px;
+            background: #ffffff;
+            color: #222;
+        }
+
+        main {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin: 0 0 8px;
+            font-size: 28px;
+            line-height: 1.2;
+        }
+
+        h2 {
+            margin: 35px 0 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #eee;
+            font-size: 21px;
+        }
+
+        .intro {
+            margin: 0 0 25px;
+            color: #666;
+        }
+
+        /* App shortcuts */
+
+        .app-list {
+            width: 100%;
+        }
+
+        .app-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            min-height: 48px;
+            padding: 8px 5px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .app-item img {
+            flex: 0 0 30px;
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+        }
+
+        .open-link {
+            flex: 0 0 auto;
+            font-weight: bold;
+            text-decoration: none;
+            color: #0645ad;
+        }
+
+        .open-link:hover {
+            text-decoration: underline;
+        }
+
+        .app-name {
+            color: #333;
+            overflow-wrap: anywhere;
+        }
+
+        /* Downloads */
+
+        .download-list {
+            margin: 0;
+            padding-left: 25px;
+        }
+
+        .download-list li {
+            margin-bottom: 12px;
+            padding-left: 3px;
+        }
+
+        .download-list a {
+            color: #0645ad;
+            text-decoration: none;
+        }
+
+        .download-list a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobile */
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 12px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 19px;
+            }
+
+            .app-item {
+                gap: 10px;
+                padding: 9px 2px;
+            }
+
+            .app-item img {
+                flex-basis: 30px;
+                width: 30px;
+                height: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<main>
+
+    <h1>Android Tools &amp; Shortcuts</h1>
+
+    <p class="intro">
+        Android system shortcuts, device tools, utilities, and downloadable APK files.
+    </p>
+
+
+    <section aria-labelledby="shortcuts-heading">
+
+        <h2 id="shortcuts-heading">Android App Shortcuts</h2>
+
+        <div class="app-list">
+
+            <!-- Android System / Samsung Apps -->
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.android.settings/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgaFVNL9_cM2lnc1T3I9gQKzln9TRRFjP_qT7W9gDMpJz1WI0s53SW6ZcQkqlPqKtHpdzppvoJ17AqHv_B1w0POAS3kU_kQ68xAP2Hrldwjodo5wHI8569cAGLQWhw_VI5cpVk5eLhMFoaX1vm6gP8smJy0FxVAq3R-rRbQ5qS8ZT7ACVuCLcW-pQs5VWn/s16000/1000002042.png"
+                    alt="Phone Settings"
+                    loading="lazy">
+
+                <span class="app-name">Phone Settings</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.sec.android.app.samsungapps/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdzG63alJITgJW1NtluGgIwNfcW6NsHfQZT5QRUaE-slcyLkv9mP3XS82dKCudUFLHL1dsYgTBUNfK04GgjoJGJ8IENDxEQUK4klhYfmNaOrY0pQJHBHbDSe6u9jMPhvDXYJ6o5ebTC0JFH9IWGMvnrih1QXBHkNP-ejmfT34OYVL1qAuNSUmZmzSGjHMT/s1600/1000002043.png"
+                    alt="Galaxy Store"
+                    loading="lazy">
+
+                <span class="app-name">Galaxy Store</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.google.android.googlequicksearchbox/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw-0t9d-X2r7KcIhWzwqXOsNKgpr0E6Pzqer_lKeDFe7xmwWYj2TljQJnJO_Z4Z6V3puY2460wmn_AFIA8Dy0VMS1P3HUkJor1UuIJ0tEv_y0hq5Ol2joCjxXbdNhndA87prDQjXh_FILP0oZCSehTgaSrhyphenhyphenlbCGp79P54XCuQXe04nohZL5V9SQ_O9Mbr/s1600/1000002044.png"
+                    alt="Google Search"
+                    loading="lazy">
+
+                <span class="app-name">Google Search</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.google.android.gms/#Intent;scheme=promote_smartlock_scheme;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBS6yLEYziifUHw7tf26RalPx60ObBwIyPTDOzQTesrzNeUygiEPJHxiUlBy0_if9MLqMu7LFEuzCQ86ZB6f9_2S6EKYaT4yIkUF5MnyzcxVCGghO0gLnR6tj6OTygNpi6yTs96MwFThbBi3CSXIhhnhaIXXEJS90OsoUjZvdhRmg7Dj6Bs1d_hZTdSpP/s1600/1000002045.png"
+                    alt="Smart Lock"
+                    loading="lazy">
+
+                <span class="app-name">Screen Smart Lock</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.sec.android.app.myfiles/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivdHlYTg3PAEtpAE5u6z0S1ZjPXK-UAVGzHR_7OdYKaS_fcYH4FZK23U9HyKCijRoCsGrQvLkvFkH19jkY7mJb6RBzhsDuo34lTh3BPhuON6LdlvZQa1ho3o-9B78UvVnIx8z8wKFgdYnAvU6WMjShznKMiGeLWyMAe2A2SGLs6oX83JClOnWxCocTJDCY/s1600/1000002046.png"
+                    alt="Samsung My Files"
+                    loading="lazy">
+
+                <span class="app-name">Samsung My Files</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.google.android.youtube/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiTrj4qAUQyxNOX_ggvmOGiGhPReDYxBBPHXqubOLYP56AyxOkI3TlkvdMCcVC2WmeldsL8BNYqO7AxxTi2YrIUBFtlLSfz_0mR3_2cwDSTE1MBesJNSPvAZ-ZkmGDGnX-VLYlFWtu7uaWL5ghDb-AiHZFpNs_X-VqX2ep87eHonjhH13d6rgKPhkmPK4W/s1600/1000002047.png"
+                    alt="YouTube"
+                    loading="lazy">
+
+                <span class="app-name">YouTube Browser</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.android.chrome/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7jN63uLaIfXep-FMq4JdJakg_ocNZNLA-sCVfNzwQUeqkEcFmshJ1-yfYwxD1vtRdwKkvfO8E1GoUsr3YfXiF8bwNxOE-d6G8fVo5VlpHFhMh_YR9t4a3CqIXWO-P1nr1tSarMDN6vEvgrfq5Gm-oqeqk_3Ly2wlR_UetzjZK6C9g57WNT76bPfZTDO4t/s1600/1000002048.png"
+                    alt="Chrome"
+                    loading="lazy">
+
+                <span class="app-name">Chrome</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.rrivenllc.shieldx/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLVGSxN3KNdObWeFBy1GFQGIOwLv_f5HALm_9mz-Dk3HBbQ6kWNOssmx7X8vp4YahxkwTMxPLVlGwAFfX-3aPalnKHid3UjTKgrPj0zkALePQA-orYJzFGthvLA1Jayeyer0XvXAw0kxnwE7JimdOY4owpjh47rdLvpM5gUIAnvsiH8oDa3_ceI_O1rYxq/s1600/1000002049.png"
+                    alt="Alliance Shield"
+                    loading="lazy">
+
+                <span class="app-name">Alliance Shield</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="https://galaxy.store/setting"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUWEn3EyQOMkQaTe7srl79PUhLTomU0XuA7yd2ofyE_0Dsqk-TMAkNYlvItH_qx7mAReFuduS6-SRpmvDcQzWI7mKPdO5W1WnqeJOnELXKSPu1OT1IUwFX6w9xwZkynZUrxjk8gvozxlNj1f5yaIIv6Dho02l0WRBmrA5LUNRl1HPgp5f6MBnuRApD5X44/s1600/1000002050.png"
+                    alt="Android Hidden Setting"
+                    loading="lazy">
+
+                <span class="app-name">Android Hidden Setting</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.google.android.gsf.login.LoginActivity/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYW2gmzPzmtwxfq0r_s86dFdPyNbpzSpb544RlVDjIzNp2gu21OoB4nn0x1NSvYq1lHkqBt506N8eyWd8H63LhiEZQuTJflY2Xvt7ntalSgVZPan9ACHe5mR3uy-Ju8Ldj070OIVU0BgDlBPR3qn0YavdKYWWhbDGZsY352mTJMwnIrJVjjdYRAnRmb7sM/s1600/1000002052.png"
+                    alt="Google Login"
+                    loading="lazy">
+
+                <span class="app-name">Login Google Account</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="tel:*#0*#">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjimZmwcyQViDcLpMkMjoX7AuRMaxXWyiQcAsJVWW7ouTItUhM62jX-DZ4CZ7csPahGiLX3JI7zz4gAO8-8HBNNIMsLr9FJbk_5IPoyDW_4bPSVJf7vHg6mSIwbxH5_XLYZq8FGWS2p3oGSwquNr7e1wWsQ1UhxyNx6xnFJjM-Y2SMy6BKTjc7SSj4Aktni/s1600/1000002064.png"
+                    alt="Test Mode"
+                    loading="lazy">
+
+                <span class="app-name">*#0*# Mode</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.google.android.apps.maps/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQj-lVTtkDh46JLI9IwtSuh7rYH4VMfyAThGvKi53dc6P6hPIFpO8yHwayF99LQFM6UNsUV9zmVYQUhxaoAMheM8ITARY_yZ20RBhcFiiTAk02OdE_lw97Ow-wA8VwuTTYcX87MB6EH2Fr9WhUblyPuH-xoRKMXhQOncO3ZaZ2CkRQLxgZ4n_sx_xQdVjV/s1600/1000002054.png"
+                    alt="Google Maps"
+                    loading="lazy">
+
+                <span class="app-name">Google Maps</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.google.android.apps.googleassistant/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrcQ6pJZtTmoOkMdqR0ttY3YPhpDz_fI45kfXQ1mvw2Z5QwMAmnmWAgzbMim9yXHyGJB2UQhTnCIISgdDJQp-wQg7nY1dZliUxaUOhi_CpfWzxL7YbZLZP1Q8tjRKcR7g1lFVqANlidIWPLtI2DTJpSL7fjAWjtvIzUvsJG-3In7OMZip4fdFVoM8cOvSg/s1600/1000002055.png"
+                    alt="Google Assistant"
+                    loading="lazy">
+
+                <span class="app-name">Google Assistant</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.google.android.gm/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjufMBAye-CaDAVimozuTiFqBMpsP2CC27HUbYLm39u0PxsKxPsrK_RsCbW5OXj4H0LU_jvZEutgPdbh_gacjaf5iYeVSR3jsH1JBrOnXDeqlYZ3_JnNF2QF3wuak_kwl_i36PFp-QgLwn-PxKkmDupRB3Gj7QXrmA1KcSmRyZ8baPTEt9adhP6yiGHgACK/s1600/1000002060.png"
+                    alt="Gmail"
+                    loading="lazy">
+
+                <span class="app-name">Gmail</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="http://galaxystore.samsung.com/detail/com.s9launcher.dir.launcher"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQ9H1-tELB4X4ygEg9xYLHjytt-5aAvWR1bCs7c-s8hDCEPhTbwTUQX1G_YM59BfVl5WopSpJICmE0DYNl4Q2YBelDUUokbvZqsiylXON61I9wDpvXj0eDMGo2hg5Kwh4AUOrR5gLDP7J2w5gjwu1Xu_vsuTRGykEuSFLpbEdcugOiEDKxd1qXFDZdWMlj/s1600/1000002062.png"
+                    alt="S9 Launcher"
+                    loading="lazy">
+
+                <span class="app-name">S9 Launcher App</span>
+            </div>
+
+
+            <!-- Samsung / Xiaomi / Vivo / Motorola Tools -->
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.sec.android.easyMover/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTUGRLQ3NK3tKm00QGwN28XI035WhaF5W7P6jX32rDv9bVXdysCAUqKHvzVGjyWiJVV2MQsMajZy8Ft4VufDqhRyZ8OF7EZkOm2F9RAHpQpORjVKm41Gk2lIt13Dp4zUnyBigZOIZbJNXuZNkMqPmAg-6vddgBT3bJ_v63dcaEbLNFKFMPmesrBgdFo_sr/s1600/1000002063.png"
+                    alt="Samsung Smart Switch"
+                    loading="lazy">
+
+                <span class="app-name">Samsung Smart Switch</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.mi.android.globalFileexplorer/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5CIfi5qFJtg5BrPVgbvg-MsaMkjQdRsiWRcXU0_6pAe13P89DfTEy7IUzvraJOEx69VJHO_k5JVbJhoCMO9s7Sq05RaZhSFc2oy3nPpBDN4aRIY1fsW6TQ_DPkTTkVgs0scpXP6xwIUGUF50pad0g6EiVO_cPEKwY6UxhxjlsARSPBY99m3w8gZJF2XAY/s1600/1000002065.png"
+                    alt="My File Manager"
+                    loading="lazy">
+
+                <span class="app-name">My File Manager</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.xiaomi.midrop/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHTFkVmJ-N7fYwJfwaYknGCOX8ZdSTvThwioHtpGBoo6Ww4csu4DeoKkLn6ElQdvvoCaWtXWhee0BZb1DdGHdK_7UygzrWOgBohNNsAhRVzUir6zBTPiBRZT8PlQxE6UebAMpTOj-vKNijJH76-dS4hb7uwT3GWjnS9o9BTKPixmlkql9Gk8CudWdn2n7_/s1600/1000002090.png"
+                    alt="Xiaomi ShareMe"
+                    loading="lazy">
+
+                <span class="app-name">Xiaomi ShareMe</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.vivo.easyshare/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNMJQ5u0tBW70djfzei8M9vAXhGJK-RSOo-AQIgWJJvu2Fc_0yquTE9AfBKmNXuT-LMapJqZ-WB4-7aFaRsZDA2ZOhJMSayXi93TueL2CbV0WMmoSg9qlZFdMvkgpwIcboebGJWzwjDeRRJISSOFVmTVndCypBBx079o2-R1Zm4Dk5PjE57rIl7rP95K9e/s1600/1000002089.png"
+                    alt="Vivo EasyShare"
+                    loading="lazy">
+
+                <span class="app-name">Vivo EasyShare</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="https://github.com/EnterTechPro/APK-Bypass/raw/refs/heads/main/EasyShare%205%20.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNMJQ5u0tBW70djfzei8M9vAXhGJK-RSOo-AQIgWJJvu2Fc_0yquTE9AfBKmNXuT-LMapJqZ-WB4-7aFaRsZDA2ZOhJMSayXi93TueL2CbV0WMmoSg9qlZFdMvkgpwIcboebGJWzwjDeRRJISSOFVmTVndCypBBx079o2-R1Zm4Dk5PjE57rIl7rP95K9e/s1600/1000002089.png"
+                    alt="Vivo EasyShare"
+                    loading="lazy">
+
+                <span class="app-name">Vivo EasyShare Old Version</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.coloros.backuprestore/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVAsBGPYZDGeRmE6CmmWCsObzmJcl2dGh4hEJxGPsCyUdOyP9oo3aoASc6PTx4OUMWB3NF_jxQwq0JrkfiljFAG3CwuLqh2orXfhIRCTpK2UZgNeJBR7wI2NHnbQVzp0n5sK1Lx8xbImPmmpcEYe9E2q-ie2w4pL76xN7CXaW-S_m9V_LOVXZ4qxPj8nfk/s1600/1000002066.png"
+                    alt="OPPO Phone Clone"
+                    loading="lazy">
+
+                <span class="app-name">OPPO Phone Clone</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.oneplus.backuprestore/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9Slx3g__l0GnVuIxUneTY6XYxpZgjYDRG5ZTmf7fLyxaPqZ9-IFPn3ixn9KjFx3kQIFCOPzE6Bt86YrM2YKQoIh3SDdaKpYxagc0tchIoOKLCaH_wjt6m1udNIjub64NXAGffspefqeysU_N3SYVqXwxlYc6bS9NSV0ML6BVKhCksbliLu22iaKt1hKXr/w30-h30/1000002092.png"
+                    alt="Clone Phone OnePlus"
+                    loading="lazy">
+
+                <span class="app-name">Clone Phone OnePlus</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://de.szalkowski.shareme#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiMnTqy4rPZJRkylkNbF-7rCtNEQGOcvGf0fiE6KLUcB94slnT18IdkTdef2fHAGBMAcY3uTTLRqc0BIIMgnDLanxr81Nb5oUf9DO7XB47Kq02z1lM0Eg_o1AV1y4_v7xGJRvNWA7N3HXtKFLBEww8tqw0FcmzNT3Tk8UrkyoGPW4Zw6dOA7xnaYJyUW_x/s1600/1000002068.png"
+                    alt="XShare"
+                    loading="lazy">
+
+                <span class="app-name">XShare App</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://de.szalkowski.activitylauncher/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJTGwQlsFFPATZmZXSTm-OtCw1JbGSuhgG_8cZDDq4yNxWDQcFFDBG24W6jhR2BTAO2C2T09r00__K_Bjge3qi_S8zpVO0g0Gno3BLPyhOMk1OtQkNHcctLw2eL12q-1mQfVHAW8kqhdTUv1dvEnMT8OYGWEs9O0HfabKBBJQCF-59X1zttucCUk2CLR-D/w33-h35/1000002069.png"
+                    alt="Activity Launcher"
+                    loading="lazy">
+
+                <span class="app-name">Activity Launcher</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="https://m.palmplaystore.com/#category=HOME#subCategory="
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8HmcM5HgwDCF6QfpJWM694Ep8lde8oZNW19hAqD6x2DCAoOLtmHvBct5OyGctICRF7zz6kVnYnVTfLyPS7O2nYbcfoGb-FTvNotkPMRKDvx7qsOPnilUk5dg2_WIa6wse6eywGNIJmecspxcMBTnZMZU85clG6TrZCtavQA3UswS6HTxNZyBkRT0hzIlo/w35-h35/1000002070.png"
+                    alt="Palm Store"
+                    loading="lazy">
+
+                <span class="app-name">Palm Store</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="https://galaxystore.samsung.com/detail/org.aospstudio.files"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3wklAy0IN1eOoWOZdDDqm9KhZedjc8BxjAJb6_SzGH5JdUKYBStrfK8SttZODI0f0i3Oe2DrvIL-Q0dMkJKW6I8gv_Mjn_IVaQ0AUdg8vunQ-TRfdFQ2Pil1dr1NY4AS6NDj_o5RU7W6JYrAzeWca-1dh7mGdmV-H52s_jqe62nhQJCKIMA1Y6cjaYe67/s1600/1000002046.png"
+                    alt="Files Shortcut"
+                    loading="lazy">
+
+                <span class="app-name">Files Shortcut</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.google.android.accessibility.switchaccess/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhphqba6jYtK_0YeVWzoUJR9I_5mEW1Hxw790KdfG0S0GZZILaW-YTCwuhbwr3z7WyxT4nRlwzdmz9KrC3fkmYhECNaXejrj_3T-mJZ6AwUZo9M_sV6HfKvOrPAkpxNzBhXAvIClsosogmkTsNtIrY-K82_SJLXLy2Bf493OU00GPQ1ebbYEeZitsHNI2uJ/w32-h30/1000002071.png"
+                    alt="Accessibility"
+                    loading="lazy">
+
+                <span class="app-name">Accessibility Key</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.motorola.securityhub/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDw9HIh0Sc-1mVxD0vcl4dLfa28yYsxsMMe9sAOE53jzWH5mnt16vTLZVTZaU-kGdCIUvz56IJNm0ESKGvINB8uS5cBxEow4KvE05X-oQQxdm1-7hJ7sjbaxAZVgBBJ5OlYPyBBdg8CXsM96yrszs8NMPw5b2v_JOZxWx1YQHnrG-bfAwgoR6ML8_L0jE_/w30-h30/1000002095.png"
+                    alt="Moto Secure"
+                    loading="lazy">
+
+                <span class="app-name">Moto Secure</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.motorola.ccc.notification/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRsenox3vCvX-dfmBjTEz4Nv34eSMPjcoTez03PyEesFpJQ3Z9G5hzuBRf84qmJTFuC_79j8jHbuv0piHTe6x84lDsvvYB0G9bdQVx62kcT8GL0Ra74b4lFVpWkUCbYUDBrBE2_Ln_JYWG68M-mz77_LwvN4NWXRM4jmRQDlxKSKuKTFnjIi1-P4u_hWI7/w27-h27/1000002096.jpg"
+                    alt="Moto Hello You"
+                    loading="lazy">
+
+                <span class="app-name">Moto Hello You</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.motorola.launcher3/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisIMiKySr6om74a8VgkRfJy4vS8zYugYHVt69TYnmAB4WMk5xyfnL3sHMtcptuZRae2JG9w05FBvVZiNfdZbIC5NdofeOBFHL1id-WquXqZxnm-pE2IbBG4Gk2uC68ylgv7ImzkM0IQ-OqlYURQJGtMMK8yDDSFK6EHuDFjzmrOYCZhzOJMPAh2F_3G3Lc/w34-h34/1000002097.jpg"
+                    alt="Motorola Launcher"
+                    loading="lazy">
+
+                <span class="app-name">Motorola Launcher</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.futuredial.asusdatatransfer/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQo9pUOBPhCb7CwML0cKJUKXWehiOTu6zK7NflJfGYkNyqra2GAEtGwnX0W1o5t-70BTHz-mGMQ9FIZ6UXEzaGWCAN0Ka_Iuq-gNX1kJsIS8BQ21bDOR-ddmnYzdmw1hufL32ALd19VxPjrDB7GP7etjzG7EUu8HikS1Q0elgei_xEgMJWoEL-XpcVBZe3/w34-h34/1000002098.png"
+                    alt="ASUS Phone Clone"
+                    loading="lazy">
+
+                <span class="app-name">ASUS Phone Clone</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="https://www.effectivegatecpm.com/uwfz6rvu7?key=f2cb3bb3c3826d6caec6ae59130569aa"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxPL9KJ5jPaIzT6HUyDE2pxe6tWIeDZv2EJ81KHDDHfpgBQD64htPD2PEX8PUQveUVmrRSRlaCOKzHYQvmESNocNpMeTqjxZzVJcI-xe_P-_MixM33jT0uDKjDe3j5HfKpOE_RvuYa2GuNy6cSxcIDzOe0jVOyIRdTOKevhAjSZbEhvFC-s3Vy14J7nBJQ/w31-h23/1000002100.png"
+                    alt="Gmail App"
+                    loading="lazy">
+
+                <span class="app-name">Gmail App V2</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="https://www.google.com/maps/place/new+delhi/data=!4m2!3m1!1s0x390cfd5b347eb62d:0x52c2b7494e204dce?sa=X&amp;ved=1t:242&amp;ictx=111"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigfzoNhJR2n6kH7m7dJZ1i4PfJ4rxvVtv_fSfNBwi8hORP7jac7T1uorv7V_eSQ9X9Ar1nMB73tpNfcjrN8OxAgE_eu7B6rR5nnnhqaZ0DLT6VFa8wf5jdd-lmL-BRTtTCCJTDQ-VrC3MCRC3Yb03xtCDAIwiJ8NdAXy8u3Z0HMgrelSa6qE2wvz_FIxkb/s1600/1000002054.png"
+                    alt="Maps"
+                    loading="lazy">
+
+                <span class="app-name">Maps</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.miui.securitycenter/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgug5eDSIzsQL3wUuC8HHBj4ntYjeDdc15r6aFZqRdUOYFK3IsKR3fj15FbihnqZeXHXtLTbSUxAXmwsI_8dF_vQzioScXwB3pPAewiv4fZaDOIGtcFiX900tZ3SfHHrVpGvX9L_mckZmo42V1tw1Xs0b5-Aao4d9JsnTVeRGIRy61EHFNIQdI38HreNk3X/w34-h34/1000002189.webp"
+                    alt="Redmi App"
+                    loading="lazy">
+
+                <span class="app-name">Redmi App</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.xiaomi.mipicks/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtiPCiPwu5gv1kt4OiH2yawXy-4PtOqPKCjOE6p0etsEcYe-sj1bQaswGQwRyDC_DBFdS7mBsZ3StsGdXFw_jPE3oCsHFir4sZ42jC80-K64JeJRxVNj_L8Y7GxjeCX94rCJMtrRLA6dEa4YpkIvpOXdKGr35Ba0w3dUDxdiAzsbvP8EYig_e8XXcROdwd/w34-h34/1000002190.png"
+                    alt="Xiaomi GetApps"
+                    loading="lazy">
+
+                <span class="app-name">Xiaomi GetApps</span>
+            </div>
+
+
+            <div class="app-item">
+                <a class="open-link"
+                   href="intent://com.xiaomi.calendar/#Intent;scheme=android-app;end">
+                    Open
+                </a>
+
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_5Xqpp6uVpWur5Hh_DLnTbaakS5vdwSHjQKwbZK0v_b2lxvWQpZSZ6vdlmKEPpDGpZQgNpPqSJJd37rDQNlGx3aBr7bJdm8EQqQ92MVOf2CMjl0xXNLZQTkicsdRBJ3VtilghuthoxwftWbu03vHwJqWYlsrFqLoLOogNGRHSRSa0_TBpSbxVqr1PVw5j/w37-h37/1000002191.png"
+                    alt="Xiaomi Calendar"
+                    loading="lazy">
+
+                <span class="app-name">Xiaomi Calendar</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section aria-labelledby="downloads-heading">
+
+        <h2 id="downloads-heading">Downloads</h2>
+
+        <ul class="download-list">
+
+            <li>
+                <a href="https://galaxystore.samsung.com/detail/com.rrivenllc.shieldx"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Alliance Shield on Galaxy Store
+                </a>
+            </li>
+
+            <li>
+                <a href="https://galaxystore.samsung.com/detail/org.aospstudio.files"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Files Shortcut on Galaxy Store
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Activity_Launcher.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Activity_Launcher.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Alliance_Shield_0.9.16.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Alliance_Shield.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Notification_Bar_18.5.8.1.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Notification_Bar.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Package_Manager_v7.0.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Package_Manager.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Package_Disabler_Pro_13.5.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Package_Disabler_Pro.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Package_Disabler_PDC.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Package_Disabler_PDC.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Disable_GoogleService.xml"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Disable_GoogleService.xml
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Disable_PlayServices.xml"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Disable_PlayServices.xml
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Android_5_GAM.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Android_5_GAM.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Android_6_GAM.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Android_6_GAM.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Android_8-9-10_GAM.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Android_8-9-10_GAM.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Google_Setting.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Google_Setting.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/FRP_Bypass.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    FRP_Bypass.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/FRP_Android_7.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    FRP_Android_7.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/FRP_addROM.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    FRP_vnROM.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Test_DPC.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Test_DPC.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/QuickShortcutMaker.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    QuickShortcutMaker.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Apex_Launcher.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Apex_Launcher.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Nova_Launcher.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Nova_Launcher.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Menu_Button.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Menu_Button.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/ES_File_Explorer_4.2.4.6.4.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    ES_File_Explorer.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Setting.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Setting.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/HushSMS.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    HushSMS.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Phone_Clone.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Phone_Clone.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/File_Commander_Manager_9.6.60050.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    File_Commander_Manager.apk
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/addrom/bypass/raw/master/Smart_Switch_Mobile_9.5.03.0.apk"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Smart_Switch_Mobile.apk
+                </a>
+            </li>
+
+        </ul>
+
+    </section>
+
+</main>
+
+</body>
+</html>
